@@ -1,2 +1,2 @@
-# nodeJS-starter-file
-Starter file for node.js applications
+# Instagram app (clone)
+Instagram app built with nodeJS, express framework
