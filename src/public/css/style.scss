@@ -1,0 +1,48 @@
+$backgroundColor: #fafafa;
+
+body {
+    background-color: $backgroundColor;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif !important;
+}
+
+.registration {
+    form {
+        .form-field {
+            position: relative;
+        }
+        
+        input, label {
+            transition: all 0.2s;
+            touch-action: manipulation;
+        }
+
+        label {
+            position: absolute;
+            top: 14px;
+            left: 12px;
+            width: 100%;
+            transition: 0.2s;
+            text-align: left;
+            color: #666;
+        }
+
+input:focus {
+    outline: 0;
+    border-bottom: 1px solid #666;
+  }
+
+
+input:focus + label {
+    font-size: 10px;
+    top: 2px;
+  }
+    }
+    &-slogan {
+        font-size: 20px;
+    }
+}
+
+input:valid + label{
+    font-size: 10px;
+    top: 2px;
+}
